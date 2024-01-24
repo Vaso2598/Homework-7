@@ -1,0 +1,13 @@
+<svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="25" height="20" fill="#F2F2F2"/>
+<g id="Tablet - iPad mini">
+<rect width="768" height="7625" transform="translate(-703 -56)" fill="white"/>
+<g id="Nav">
+<g id="Menu Button">
+<path id="Rectangle 13" d="M0 1.74554C0 1.19325 0.447715 0.745537 1 0.745537H24C24.5523 0.745537 25 1.19325 25 1.74554V2.74554C25 3.29782 24.5523 3.74554 24 3.74554H1C0.447716 3.74554 0 3.29782 0 2.74554V1.74554Z" fill="#6C63FF"/>
+<rect id="Rectangle 14" y="8.74554" width="25" height="3" rx="1" fill="#6C63FF"/>
+<rect id="Rectangle 15" y="16.7455" width="25" height="3" rx="1" fill="#6C63FF"/>
+</g>
+</g>
+</g>
+</svg>

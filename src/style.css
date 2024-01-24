@@ -1,0 +1,115 @@
+/* Fonts */
+
+h1{
+    color: var(--neutral-500, #2F2E41);
+    /* H1 --desktop */
+    font-family: "Playfair Display";
+    font-size: 5.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.5rem;
+    /* 102.326% */
+    letter-spacing: -0.0625rem;
+}
+
+h2{
+    color: var(--neutral-500, #2F2E41);
+    /* H2 --desktop */
+    font-family: "Playfair Display";
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+    /* 106.667% */
+    letter-spacing: -0.0625rem;
+}
+
+h3{
+    color: var(--neutral-500, #2F2E41);
+    /* H3 --desktop */
+    font-family: "Playfair Display";
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    /* 112% */
+}
+
+h4{
+    color: var(--neutral-500, #2F2E41);
+    /* H4 --desktop */
+    font-family: "Playfair Display";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.875rem;
+    /* 115% */
+}
+
+h5{
+    color: var(--neutral-500, #2F2E41);
+    /* H5 --dektop */
+    font-family: "Playfair Display";
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.625rem;
+    /* 123.529% */
+}
+
+h6{
+    color: var(--neutral-500, #2F2E41);
+    /* H6 --desktop */
+    font-family: "Playfair Display";
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.125rem;
+    /* 121.429% */
+}
+
+.body-l{
+    color: var(--neutral-500, #2F2E41);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body large */
+    font-family: "Open Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.125rem;
+    /* 170% */
+}
+
+.body-m{
+    color: var(--neutral-500, #2F2E41);
+    /* Body medium */
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    /* 144.444% */
+}
+
+.body-s{
+    color: var(--neutral-500, #2F2E41);
+    /* Body small */
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    /* 162.5% */
+}
+
+.body-t{
+    color: var(--neutral-500, #2F2E41);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body title */
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 133.333% */
+}
