@@ -1,0 +1,10 @@
+.navbar li a{
+    transition: all 100ms ease-in-out;
+    border-bottom: 4px solid transparent;
+    width: fit-content;
+}
+
+.navbar li a:hover{
+    color:#2F2E41 ;
+    border-bottom: 4px solid #9E99FF;
+}

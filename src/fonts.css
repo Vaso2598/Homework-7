@@ -113,3 +113,49 @@ h6 {
     line-height: 1.5rem;
     /* 133.333% */
 }
+
+/* Navbar */
+
+.nav-text{
+    color: var(--neutral-300, #9893A3);
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Pricing */
+
+.price-txt-l{
+    color: var(--neutral-500, #2F2E41);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    /* 112% */
+    letter-spacing: -0.125rem;
+}
+
+/* Button text */
+
+.btn-txt{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Footer text */
+.footer-txt{
+    color: var(--neutral-300, #9893A3);
+    font-family: "Open Sans";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

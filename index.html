@@ -36,26 +36,26 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav gap-4 m-auto mb-2 mb-lg-0">
+						<ul class="navbar-nav body-s gap-4 m-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#">Home</a>
+								<a class="nav-link nav-text" aria-current="page" href="#">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Features</a>
+								<a class="nav-link nav-text" href="#">Features</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Pricing</a>
+								<a class="nav-link nav-text" href="#">Pricing</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Blog</a>
+								<a class="nav-link nav-text" href="#">Blog</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link nav-text" href="#">Contact</a>
 							</li>
 						</ul>
 						<form class="d-flex gap-3">
-							<button class="btn btn-outline-success" type="submit">Log in</button>
-							<button class="btn btn-outline-success" type="submit">Get Started</button>
+							<button class="btn-outline-medium btn-txt" type="submit">Log in</button>
+							<button class="btn-primary-medium btn-txt" type="submit">Get Started</button>
 						</form>
 					</div>
 				</div>
@@ -70,7 +70,7 @@
 							Outcome-centered product that reduce churn, optimize pricing, and grow your subscription business
 							end-to-end.
 						</p>
-						<button class="btn btn-outline-success" type="submit">Get Started</button>
+						<button class="btn-primary-medium btn-txt" type="submit">Get Started</button>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-12">
 						<img src="./src/images/Hero_image.svg" alt="Hero Image" />
@@ -111,47 +111,145 @@
 							A daily dataset to keep you up to date on subscription market trends and what's happening in your
 							vertical.
 						</p>
-						<a href="#">Learn more</a>
+						<a class="link black-1 body-t" href="#">Learn more</a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="mt-220">
 			<div class="container">
-				<div class="row">
-					<div class="col-xl-4 col-lg-4 col-md-12">
-						<div class="card text-center">
-							<div class="card-body">
-								<h5 class="card-title">Special title treatment</h5>
-								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+				<h2 class="text-center">Choose your plan</h2>
+				<div class="row mt-45 align-items-center gap-12">
+					<div class="col-xl-4 col-lg-4 col-md-12 mt-45">
+						<div class="card text-center align-items-center bg-gray">
+							<div class="card-body py-5">
+								<p class="card-title body-m black-2">Starter</p>
+								<p class="card-title price-txt-l">Free</p>
+								<ul class="list-unstyled">
+									<li class="body-m black-2">Dashboard</li>
+									<li class="body-m black-2">Limited Support</li>
+									<li class="body-m black-2">Forever free</li>
+								</ul>
+								<button class="btn-outline-medium btn-txt">Get Started</button>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-4 col-md-12">
-						<div class="card text-center">
-							<div class="card-body">
-								<h5 class="card-title">Special title treatment</h5>
-								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+					<div class="col-xl-4 col-lg-4 col-md-12 mt-45">
+						<div class="card text-center align-items-center bg-purple">
+							<div class="card-body py-70">
+								<p class="card-title body-m black-5">Premium</p>
+								<p class="card-title price-txt-l black-5">
+									$29
+									<small class="body-m black-5">/month</small>
+								</p>
+								<ul class="list-unstyled">
+									<li class="body-m black-5">Dashboard & Analysis</li>
+									<li class="body-m black-5">Premium Support</li>
+									<li class="body-m black-5">Tracking Service</li>
+								</ul>
+								<button class="btn-outline-large btn-txt">Get Started</button>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-4 col-md-12">
-						<div class="card text-center">
-							<div class="card-body">
-								<h5 class="card-title">Special title treatment</h5>
-								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+					<div class="col-xl-4 col-lg-4 col-md-12 mt-45">
+						<div class="card text-center align-items-center bg-gray">
+							<div class="card-body py-5">
+								<p class="card-title body-m black-2">Enterprise</p>
+								<p class="card-title price-txt-l">
+									$49
+									<small class="body-m">/month</small>
+								</p>
+								<ul class="list-unstyled">
+									<li class="body-m black-2">All features in Premium</li>
+									<li class="body-m black-2">Realtime overview</li>
+									<li class="body-m black-2">Mobile app</li>
+								</ul>
+								<button class="btn-outline-medium btn-txt">Get Started</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- add offset -->
 		<section class="mt-220">
-			<div class="container"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1 col-xl-1 col-md-0"></div>
+					<div
+						class="row col-lg-10 col-xl-10 col-md-12 justify-content-center justify-content-around align-items-center bg-dark p-85">
+						<div class="col-lg-7">
+							<h3 class="black-5">Interested in getting fusely?</h3>
+						</div>
+						<div class="col-lg-3">
+							<button class="btn-primary-large body-t">Let's talk</button>
+						</div>
+					</div>
+					<div class="col-lg-1 col-xl-1 col-md-0"></div>
+				</div>
+			</div>
 		</section>
+		<footer class="mt-90 bg-gray">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-1"></div>
+					<div class="row col-lg-10 col-md-12 gap-14 justify-content-between">
+						<div class="col-lg-2 col-md-3 col-sm-6">
+							<p class="body-t black-1">Product</p>
+							<ul class="list-unstyled">
+								<li class="body-s black-2">How it works</li>
+								<li class="body-s black-2">Features</li>
+								<li class="body-s black-2">Pricing</li>
+								<li class="body-s black-2">FAQ</li>
+								<li class="body-s black-2">Download</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-6">
+							<p class="body-t black-1">Company</p>
+							<ul class="list-unstyled">
+								<li class="body-s black-2">About</li>
+								<li class="body-s black-2">Blog</li>
+								<li class="body-s black-2">Partnership</li>
+								<li class="body-s black-2">Terms of use</li>
+								<li class="body-s black-2">Privacy policy</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-6">
+							<p class="body-t black-1">Support</p>
+							<ul class="list-unstyled">
+								<li class="body-s black-2">Help center</li>
+								<li class="body-s black-2">Contact us</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-6 justify-content-center">
+							<div>
+								<p class="body-t black-1">Get in touch</p>
+							</div>
+							<ul class="row list-unstyled justify-content-between gap-1">
+								<li class="col-lg-1 col-md-1">
+									<img src="./src/images/Facebook.svg" alt="#" />
+								</li>
+								<li class="col-lg-1 col-md-1">
+									<img src="./src/images/Twitter.svg" alt="#" />
+								</li>
+								<li class="col-lg-1 col-md-1">
+									<img src="./src/images/Linkedin.svg" alt="#" />
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+			</div>
+			<div class="d-flex justify-content-between">
+				<div>
+					<img src="./src/images/Logo_fusely_small.svg" alt="logo" />
+				</div>
+				<div>
+					<p class="footer-txt">© Fusely 2021. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

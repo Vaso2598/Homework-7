@@ -86,6 +86,7 @@
 }
 
 .link{
+    text-decoration: none;
     display: inline-flex;
     padding: 0rem 0.3125rem;
     justify-content: center;

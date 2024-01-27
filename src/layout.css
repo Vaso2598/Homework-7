@@ -3,3 +3,24 @@
 .mt-220{
     margin-top: 13.75rem;
 }
+
+.mt-90{
+    margin-top: 5.62rem;
+}
+
+.mt-45{
+    margin-top: 2.81rem;
+}
+
+.p-85{
+    padding: 5.25rem;
+}
+
+.py-70{
+    padding-top: 4.38rem;
+    padding-bottom: 4.38rem;
+}
+
+footer{
+    padding: 15.28rem 16.88rem 8.81rem 16.88rem;
+}

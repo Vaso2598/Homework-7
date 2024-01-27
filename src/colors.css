@@ -1,0 +1,79 @@
+/* Purple shades */
+
+.purple-1{
+    color: #5952D1;
+}
+
+.purple-2{
+    color: #6C63FF;
+}
+
+.purple-3{
+    color: #9E99FF;
+}
+
+.purple-4{
+    color: #C5C2FF;
+}
+
+.purple-5{
+    color: #ECEBFF;
+}
+
+/* Rose shades */
+
+.rose-1 {
+    color: #FC4A6E;
+}
+
+.rose-2 {
+    color: #FD6584;
+}
+
+.rose-3 {
+    color: #FD9BAE;
+}
+
+.rose-4 {
+    color: #FED7DF;
+}
+
+.rose-5 {
+    color: #FEEBEF;
+}
+
+/* Black shades */
+
+.black-1{
+    color:#2F2E41
+}
+
+.black-2{
+    color:#717082
+}
+
+.black-3{
+    color:#9893A3
+}
+
+.black-4{
+    color:#CFCFDE
+}
+
+.black-5{
+    color:#FFF
+}
+
+/* Background */
+
+.bg-purple{
+    background-color: #6C63FF;
+}
+
+.bg-gray{
+    background-color: rgb(236,235,255,0.30)
+}
+
+.bg-dark{
+    background-color: #2F2E41;
+}
